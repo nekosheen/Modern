@@ -24,13 +24,6 @@
   font-style: normal;  /* Specify the font's style */
 }
 
-@font-face {
-  font-family: 'LettersForLearners'; /* Give your font a unique name */
-  src: url('./extra/custom-assets/LettersForLearners.ttf') format('truetype');
-  font-weight: normal;  /* Specify the font's weight */
-  font-style: normal;  /* Specify the font's style */
-}
-
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
@@ -91,14 +84,14 @@
     padding: 0;
     min-height: 100vh;
     font-family: var(--font);
-    background-image: url('./extra/custom-assets/background.jpg');
+    background-color: #164946;
     opacity: 0;
     animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
     animation-fill-mode: forwards;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    color: #171a1d;
+    color: white;
   }
 
   
@@ -126,10 +119,10 @@
   /* Typography
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   h1 {
-    color:#171a1d;
+    color:#fff;
     margin-top: 0;
     margin-bottom: 16px;
-    font-family: 'LettersForLearners', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold; }
   h1 { font-size:24px; line-height: 64px; letter-spacing: 0;}
   
